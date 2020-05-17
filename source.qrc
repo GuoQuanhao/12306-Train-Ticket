@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="png">
+    <file>src/bg1.png</file>
+    <file>src/bg2.png</file>
+    <file>src/bg3.png</file>
+    <file>src/bg4.png</file>
+    <file>src/logo.png</file>
+  </qresource>
+</RCC>

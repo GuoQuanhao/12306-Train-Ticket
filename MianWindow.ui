@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainWindow</class>
+ <widget class="QMainWindow" name="mainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>480</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>960</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>12306官网查询</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_title_img">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>960</width>
+      <height>225</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/png/src/bg1.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_input" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>225</y>
+      <width>640</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/png/src/bg2.png);</string>
+    </property>
+    <widget class="QLabel" name="label_departure">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>32</y>
+       <width>60</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>出发地：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_departure">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>30</y>
+       <width>113</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_destination">
+     <property name="geometry">
+      <rect>
+       <x>235</x>
+       <y>30</y>
+       <width>113</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_destination">
+     <property name="geometry">
+      <rect>
+       <x>175</x>
+       <y>32</y>
+       <width>60</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>目的地：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_date">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>30</y>
+       <width>113</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_date">
+     <property name="geometry">
+      <rect>
+       <x>355</x>
+       <y>32</y>
+       <width>72</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>出发日期：</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_inquire">
+     <property name="geometry">
+      <rect>
+       <x>548</x>
+       <y>26</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>查询</string>
+     </property>
+    </widget>
+    <zorder>label_departure</zorder>
+    <zorder>lineEdit_departure</zorder>
+    <zorder>lineEdit_destination</zorder>
+    <zorder>label_destination</zorder>
+    <zorder>label_date</zorder>
+    <zorder>pushButton_inquire</zorder>
+    <zorder>lineEdit_date</zorder>
+   </widget>
+   <widget class="QLabel" name="label_logo">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>225</y>
+      <width>320</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/png/src/logo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_train_class" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>305</y>
+      <width>960</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/png/src/bg3.png);</string>
+    </property>
+    <widget class="QLabel" name="label_train_class">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>72</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>车次类型：</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_G">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>9</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>G-高铁</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_D">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>9</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>D-动车</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_Z">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>9</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Z-直达</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_T">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>9</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>T-特快</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_K">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>9</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>K-快车</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_information">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>340</y>
+      <width>960</width>
+      <height>62</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/png/src/bg4.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView_information">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>402</y>
+      <width>960</width>
+      <height>448</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>widget_input</zorder>
+   <zorder>label_title_img</zorder>
+   <zorder>label_logo</zorder>
+   <zorder>widget_train_class</zorder>
+   <zorder>label_information</zorder>
+   <zorder>tableView_information</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="source.qrc"/>
+ </resources>
+ <connections/>
+</ui>
