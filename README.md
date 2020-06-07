@@ -26,6 +26,7 @@ Pycharm 提供[专业版](https://www.jetbrains.com/pycharm/download/download-th
 | Program | E:\Anaconda3\Library\bin\designer.exe(根据自己Python环境填写路径) |
 | Arguments | 无 |
 | Working directory | E:\Anaconda3\Library\bin |
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517140025297.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY3NDI3,size_16,color_FFFFFF,t_70#pic_center)
 **PyUIC:将 UI 界面转换为 Python 可识别的代码**
 |属性| 参数 |
@@ -35,6 +36,7 @@ Pycharm 提供[专业版](https://www.jetbrains.com/pycharm/download/download-th
 | Program | E:\Anaconda3\envs\tensorflow1.x\python.exe(根据自己Python环境填写路径) |
 | Arguments | -m PyQt5.uic.pyuic \$FileName\$ -o \$FileNameWithoutExtension\$.py|
 | Working directory | \$FileDir\$ |
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517140534152.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY3NDI3,size_16,color_FFFFFF,t_70#pic_center)
 **qrc2py:将需要用到的资源文件转换成 Python 可识别文件（在设置 UI 时可以在 UI 转换成 py 文件后手动添加资源文件，但过程相较于繁琐，此处采取在编辑UI时直接添加资源文件）**
 |属性| 参数 |
@@ -44,6 +46,7 @@ Pycharm 提供[专业版](https://www.jetbrains.com/pycharm/download/download-th
 | Program | E:\Anaconda3\envs\tensorflow1.x\Scripts\pyrcc5.exe(根据自己Python环境填写路径) |
 | Arguments | \$FileName\$ -o \$FileNameWithoutExtension\$_rc.py|
 | Working directory | \$FileDir\$ |
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517140825705.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY3NDI3,size_16,color_FFFFFF,t_70#pic_center)
 配置完成后如下
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517140839548.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY3NDI3,size_16,color_FFFFFF,t_70#pic_center)
