@@ -39,6 +39,7 @@ Pycharm 提供[专业版](https://www.jetbrains.com/pycharm/download/download-th
 | Working directory | \$FileDir\$ |
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517140534152.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY3NDI3,size_16,color_FFFFFF,t_70#pic_center)
+
 **qrc2py:将需要用到的资源文件转换成 Python 可识别文件（在设置 UI 时可以在 UI 转换成 py 文件后手动添加资源文件，但过程相较于繁琐，此处采取在编辑UI时直接添加资源文件）**
 |属性| 参数 |
 |--|--|
