@@ -28,6 +28,7 @@ Pycharm 提供[专业版](https://www.jetbrains.com/pycharm/download/download-th
 | Working directory | E:\Anaconda3\Library\bin |
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200517140025297.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM5NTY3NDI3,size_16,color_FFFFFF,t_70#pic_center)
+
 **PyUIC:将 UI 界面转换为 Python 可识别的代码**
 |属性| 参数 |
 |--|--|
